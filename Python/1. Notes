@@ -28,3 +28,6 @@ Rules to make variable in python
 
 Token: Tokens are the smallest meaningful units in a Python program.
 Any logical piece of code when broken down, every part of it is called token.
+Smallest part to be executed.
+
+Python execute code line by line.
