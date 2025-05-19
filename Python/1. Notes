@@ -14,20 +14,5 @@ Python has a simple syntax similar to the English language.
 Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
 Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
 
-Rules For Python
+Reason to Learn Python?
 
-  1. Python is case sensitive.
-  2. Python is space sensitive.
-
-Rules to make variable in python
-
-# 1. Variable is case-sensitive. [a=10, A=10] # Both are different.
-# 2. Variable should start with alphabet or underscore.
-# 3. Number cannot be a variable.
-# 4. Variable also space-sensitive.
-
-Token: Tokens are the smallest meaningful units in a Python program.
-Any logical piece of code when broken down, every part of it is called token.
-Smallest part to be executed.
-
-Python execute code line by line.
