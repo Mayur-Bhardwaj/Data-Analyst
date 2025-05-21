@@ -7,11 +7,14 @@ remaining_second = second_input%3600  # Remaining seconds after calculating hour
 minutes = remaining_second //60
 seconds = remaining_second%60
 
-print(f"{second_input} value = {hours}, {minutes}minute, {seconds}second.")
+print(f"{second_input} value = {hours}, {minutes} minute, {seconds} second.")
 
 #Output:
 # Please enter the time in seconds:  3600
-# 3600 value = 1, 0minute, 0second.
+# 3600 value = 1, 0 minute, 0 second.
 
 # Please enter the time in seconds:  6789
-# 6789 value = 1, 53minute, 9second.
+# 6789 value = 1, 53 minute, 9 second.
+
+#3783  divide by 3600 to calc hour, the rem of 3600 is divide by 60 to cal min and the remainder after divide by
+# 60 sec
