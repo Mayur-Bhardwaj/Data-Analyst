@@ -104,3 +104,8 @@ print(list_Reverse)  # ['CSS', 'HTML', 'JavaScript', 'NodeJS', 'Python', 'ReactJ
 
 list_Reverse.sort(reverse=True)  # They sort in the reverse order.
 print(list_Reverse)   # ['ReactJs', 'Python', 'NodeJS', 'JavaScript', 'HTML', 'CSS']
+
+# To delete the whole list
+print(a) # [1, 2, 3, 4, 5]
+del a
+print(a) # NameError: name 'a' is not defined
