@@ -96,3 +96,11 @@ list_Reverse = ["HTML", "CSS", "JavaScript", "Python", "ReactJs", "NodeJS"]
 list_Reverse.reverse()  # To reverse the list
 print(list_Reverse)   # ['NodeJS', 'ReactJs', 'Python', 'JavaScript', 'CSS', 'HTML']
 
+# Arraange according to alphabetically
+
+list_Reverse.sort()  # They sort according to the alphabetically
+print(list_Reverse)  # ['CSS', 'HTML', 'JavaScript', 'NodeJS', 'Python', 'ReactJs']
+
+
+list_Reverse.sort(reverse=True)  # They sort in the reverse order.
+print(list_Reverse)   # ['ReactJs', 'Python', 'NodeJS', 'JavaScript', 'HTML', 'CSS']
