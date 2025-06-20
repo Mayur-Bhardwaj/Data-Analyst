@@ -17,8 +17,8 @@ print(var)  # {'roll': 1, 'Name': 'Akshay', 'City': 'London'}
 
 dict = {
         "Roll": {1,2,3,4,5},
-        "Name": {"Akshay","Ram", "Paras", "Nikhil", "Ansh"},
-        "City": {"Lucknow", "Ayodhya", "Delhi", "Gurgaon", "Meerut"}
+        "Name": ["Akshay","Ram", "Paras", "Nikhil", "Ansh"],
+        "City": ["Lucknow", "Ayodhya", "Delhi", "Gurgaon", "Meerut"]
 }
 print(dict)  # {'Roll': {1, 2, 3, 4, 5}, 'Name': {'Akshay', 'Nikhil', 'Ram', 'Paras', 'Ansh'}, 'City': {'Lucknow', 'Ayodhya', 'Delhi', 'Gurgaon', 'Meerut'}}
 print(id(dict))  # 1483437423936
@@ -67,7 +67,7 @@ print(dict)    # {'Roll': [11, 22, 33, 44, 55], 'Name': {'Nikhil', 'Paras', 'Ans
 print(id(dict))  # 1483437423936
 
 
-# If we add new key value pair then we use update button
+# If we add new key value pair then we use update
 
 dict.update({"Admission": [2012, 2015, 2016, 2018, 2020]})
 print(dict)    # {'Roll': [11, 22, 33, 44, 55], 'Name': {'Paras', 'Nikhil', 'Ram', 'Akshay', 'Ansh'}, 'City': {'Gurgaon', 'Lucknow', 'Ayodhya', 'Delhi', 'Meerut'}, 'Admission': [2012, 2015, 2016, 2018, 2020]}
