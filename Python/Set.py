@@ -40,3 +40,11 @@ print(a)  # {34, 21, 87}
 
 string_set ={"Apple","Meta","Google","Amazon"}
 print(string_set)  # {'Meta', 'Apple', 'Google', 'Amazon'}
+
+# Set Theory
+
+sets1= {1,2,3,4,5}
+sets2 = {4,5,6,7,8}
+print(f"Union = {sets1.union(sets2)}")  # Union = {1, 2, 3, 4, 5, 6, 7, 8}
+
+print(f"Intersection = {sets1.intersection(sets2)}")   # Intersection = {4, 5}
