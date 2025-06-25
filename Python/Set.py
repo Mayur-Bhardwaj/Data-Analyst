@@ -48,3 +48,16 @@ sets2 = {4,5,6,7,8}
 print(f"Union = {sets1.union(sets2)}")  # Union = {1, 2, 3, 4, 5, 6, 7, 8}
 
 print(f"Intersection = {sets1.intersection(sets2)}")   # Intersection = {4, 5}
+
+print(f"A-B = { sets1-sets2 }")  # A-B = {1, 2, 3}
+print(f"B-A = { sets2 - sets1 }")  # B-A = {8, 6, 7}
+
+
+# Suppose we haave 2 list of students and we want only defaulters students 
+
+student1 = {"Aman", "Aashish", "Priya", "Rohan", "Kajal"}
+student2 = {"Aashish", "Priya", "Kajal"}
+print(f"The defaulters students = {student1 - student2}") # The defaulters students = {'Rohan', 'Aman'}
+
+# Note:- The f before the string is used to create an f-string, which stands for formatted string literal. It's a feature in Python (introduced in Python 3.6) that allows you to embed expressions inside string literals, using curly braces {}.
+
