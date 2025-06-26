@@ -16,3 +16,12 @@ print(tup[1])  # 2
 # Note:- In tuple we only do indexing and slicing.
 
 print(tup[1:4])   # (2, 3, 4)
+
+
+# Another way of defining tuple 
+
+tuple1 = 1,2,3,4,5
+tuple2 = "Ajay", "Mohan"
+print(tuple1)   # (1, 2, 3, 4, 5)
+print(tuple2)   # ('Ajay', 'Mohan')
+ 
