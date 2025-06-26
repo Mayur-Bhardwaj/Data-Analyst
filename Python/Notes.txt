@@ -1,0 +1,48 @@
+Data Analyst:-  
+
+It is the science of analyzing raw data to find trends and answer questions.
+A data analyst's job is to collect, organize, and analyze data to help businesses make informed decisions. They use data to: 
+Identify trends and patterns: Data analysts use statistical tools to find patterns and trends that can be used for predictive and diagnostic analytics. 
+Improve performance: Data analysts help businesses measure and improve their performance. 
+Optimize operations: Data analysts can help businesses optimize their operations. 
+Understand customers: Data analysts can help businesses better understand their customers. 
+Inform strategic decision-making: Data analysts can help businesses make strategic decisions. 
+
+Data analysts perform a variety of tasks, including: 
+1. Gathering data from primary and secondary sources. 
+2. Cleaning and organizing data. 
+3. Analyzing data using statistical tools. 
+4. Preparing reports for leadership. 
+5. Collaborating with others to identify opportunities for improvement. 
+6. Creating documentation for stakeholders.
+
+Python:
+It is both compiled and interpreted languages. Python is a popular programming language.
+Python can be used on a server to create web applications.
+Python executes the code line by line.
+
+Data Types:-  Programming, data type is an important concept. Variables can store data of different types, and different types can do different things.
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+
+Data Types:
+1. On the basis of what value does it store.
+2. On the basis that value can be changed once created.
+
+
+1. Mutable              2. Immutable
+
+
+Conditional Statements:- 
+Set of Statements that helps us break, the flow of execution depending on some conditions.
+
+Types:- 1. If       2. If-Else      3. If-Elif-Else         4. Nested If
