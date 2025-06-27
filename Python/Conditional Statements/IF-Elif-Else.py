@@ -33,3 +33,20 @@ else:
 
 # Please Enter the number: 10
 # Your number is:  10
+
+
+# If user enter the value in decimal.
+
+number = float(input("Please Enter the number: "))
+
+if( number > 10):
+    print("Your updated number is : ", number + 1)
+elif ( number < 10):
+    print("Your updated number is: ", number - 1)
+else: 
+    print("Your updated number is: ", number)
+
+# Output
+# Please Enter the number: 10.5
+# Your updated number is :  11.5
+
