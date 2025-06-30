@@ -6,7 +6,7 @@
 
 units = int(input("Please Enter here your consumed units: "))
 
-if( units <0):
+if( units <= 0 ):
     print("Please Enter Valid Unit")
 else:
     print("Bill Summary.")
