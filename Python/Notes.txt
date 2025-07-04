@@ -46,3 +46,20 @@ Conditional Statements:-
 Set of Statements that helps us break, the flow of execution depending on some conditions.
 
 Types:- 1. If       2. If-Else      3. If-Elif-Else         4. Nested If
+
+Loops: Loops in Python are used to repeat actions efficiently.
+       The main types are For loops (counting through items) and While loops (based on conditions).
+  While Loop:- 
+        In Python, a while loop is used to execute a block of statements repeatedly until a given condition is satisfied.
+        When the condition becomes false, the line immediately after the loop in the program is executed.
+Syntax:
+while expression:
+    statement(s)
+
+For Loop:-  Python For Loops are used for iterating over a sequence like lists, tuples, strings, and ranges.
+            For loop allows you to apply the same operation to every item within loop.
+            Using For Loop avoid the need of manually managing the index.
+            For loop can iterate over any iterable object, such as dictionary, list or any custom iterators.
+Syntax:
+for iterator_var in sequence:
+    statements(s)
