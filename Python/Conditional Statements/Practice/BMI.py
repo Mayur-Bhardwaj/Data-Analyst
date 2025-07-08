@@ -27,21 +27,32 @@ else:
     print(weight)
     bmi = (weight)/(height**2)
 print(f"The BMI is: {bmi}")
+    
+if(bmi<= 18.5):
+    print("UnderWeight - Consult A Nutritionist")
+elif ( bmi >= 18.5 and bmi < 25):
+    print("Normal Weight - Keep It Up!!")
+elif (bmi >= 25 and bmi < 30):
+    print("OverWeight - Consider regular exercise")
+elif (bmi >= 30):
+    print("Obese - Seek Medical Advice")
 
 
 # Output:-
-# Enter the unit of Height: m
-# Enter the unit of Weight: kg
-# Please Enter the Height: 1.85
-# Please Enter the Weight: 80
-# 1.85
-# 80.0
-# The BMI is: 23.37472607742878
-
 # Enter the unit of Height: ft
+# Enter the unit of Weight: kg
+# Please Enter the Height: 6.2
+# Please Enter the Weight: 92
+# 1.88976
+# 92.0
+# The BMI is: 25.76170026892025
+# OverWeight - Consider regular exercise
+
+# Enter the unit of Height: m
 # Enter the unit of Weight: lbs
-# Please Enter the Height: 5.7
-# Please Enter the Weight: 198
-# 1.7373600000000002
-# 89.811216
-# The BMI is: 29.754382377339695
+# Please Enter the Height: 1.8
+# Please Enter the Weight: 73
+# 1.8
+# 33.112216
+# The BMI is: 10.219819753086417
+# UnderWeight - Consult A Nutritionist
