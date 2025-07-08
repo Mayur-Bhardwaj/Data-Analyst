@@ -52,3 +52,38 @@ if second_number != 0:
     print(f"The result of division is: {result}")
 else:
     print("Division by zero is not allowed.")
+
+
+
+# Using 3rd Variable.
+
+first_number = int(input("Please Enter your First Number here: "))
+second_number = int(input("Please Enter your Second Number here: "))
+
+if first_number >= second_number:
+    print(f"{first_number} is greater than {second_number}")
+else:
+    temp = first_number
+    first_number = second_number
+    second_number = temp
+
+    # first_number = first_number + second_number
+    # second_number = first_number - second_number
+    # first_number = first_number - second_number
+    print(f"The first number after swap is {first_number}")
+    print(f"The second number after swap is {second_number}")
+    new_number = first_number/second_number
+    print(f"The updated number is: {new_number}")
+    
+
+# Output:
+# Please Enter your First Number here: 25
+# Please Enter your Second Number here: 30
+# The first number after swap is 30
+# The second number after swap is 25
+# The updated number is: 1.2
+
+
+# Please Enter your First Number here: 15
+# Please Enter your Second Number here: 12
+# 15 is greater than 12
