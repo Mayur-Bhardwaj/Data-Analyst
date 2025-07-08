@@ -65,3 +65,33 @@ else:
                 print("Perfect Square & Odd")
         else:
             print("Not a Perfect Square")
+
+
+# Best Code
+
+# (number**0.5)  //Under Root
+
+
+number = int(input("Please Enter a Number: "))
+sqrt = int(number**0.5)**2
+
+if(number<0):
+    print("Please Enter the Positive Real Number")
+else:
+    if(number == sqrt and number%2==0):
+        print(f"{number} is Perfect Even Number")
+    elif(number == sqrt and number%2!=0):
+        print(f"{number} is Perfect Odd Number")
+    else:
+        print("The number is not a Perfect Square.")
+    
+
+# Output:
+# Please Enter a Number: 100
+# 100 is Perfect Even Number
+
+# Please Enter a Number: 49
+# 49 is Perfect Odd Number
+
+# Please Enter a Number: 98
+# The number is not a Perfect Square.
