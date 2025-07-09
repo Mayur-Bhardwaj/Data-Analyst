@@ -82,3 +82,18 @@ for i in range(-100,100,10):
 # 70
 # 80
 # 90
+
+
+# Print the 4th elemet of the list to choose lucky draw.
+
+list = [1,7,9,11,15,35,4,9,3,4,52,98,23,87,100]
+
+print(len(list))     # 15
+
+for l in range(3, len(list), 4):   # l print the index --> [3,7,11]
+    print(list[l])   # they print the value which is present on index at l.
+
+# Output:
+# 11
+# 9
+# 98
