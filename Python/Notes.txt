@@ -63,3 +63,7 @@ For Loop:-  Python For Loops are used for iterating over a sequence like lists, 
 Syntax:
 for iterator_var in sequence:
     statements(s)
+
+
+Python "not in" Condition:  In Python, the not in condition is used to check if a value does not exist in a sequence (like a list, tuple, string, or set). 
+                            It returns True if the value is not present, and False if it is present.
